@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  background-image: url(./lib/1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.JAM_IMAGE {
+  width: 40px;
+}
+.JAM_SECTION {
+  height: 96.2vh;
+  background-color: white;
+}
+.JAMOLAR {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  border-bottom: 0.5px solid black;
+}
+.JAMOA_HEAD {
+  display: flex;
+  gap: 110px;
+}
+
+.jadval {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 40px;
+  gap: 30px;
+}
+.jadval :first-child {
+  margin-left: 150px;
+  margin-right: 35px;
+}
+
+@media screen and (max-width: 100px) {
+  .JAMOLAR {
+    display: none; 
+  }
+}
+
+@media screen and (min-width: 101px) and (max-width: 200px) {
+  .JAMOLAR {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 201px) and (max-width: 300px) {
+  .JAMOLAR {
+    width: calc(104% - 20px);
+    margin-bottom:20px;
+    gap: 25px;
+  }
+  .JAMOA_HEAD {
+    gap: 5px;
+  }
+  .jadval {
+    gap: 8px;
+  }
+  .jadval :nth-child(1) {
+    margin-left: 240px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 200px;
+  }
+  
+} 
+
+@media screen and (min-width: 301px) and (max-width: 400px) {
+  .JAMOLAR {
+    width: calc(104% - 20px);
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .JAMOA_HEAD {
+    gap: 5px;
+  }
+  .jadval {
+    gap: 10px;
+  }
+  .jadval :nth-child(1) {
+    margin-left: 165px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 200px;
+  }
+  .jadval {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      98% - 20px
+    ); 
+    margin-bottom: 20px;
+  }
+  .JAMOA_HEAD {
+    gap: 30px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  .JAMOLAR {
+    width: calc(
+      103% - 20px
+    ); 
+    margin-bottom: 20px; 
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+  .JAMOLAR {
+    width: calc(
+      100.66% - 20px
+    ); 
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+  .JAMOLAR {
+    width: calc(
+      102.28% - 20px
+    ); 
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+  .JAMOLAR {
+    width: calc(
+      100.5% - 20px
+    );
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+  .JAMOLAR {
+    width: calc(
+      102% - 20px
+    ); 
+    margin-bottom: 20px; 
+  }
+}
+
+
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+  .JAMOLAR {
+    width: calc(
+      100% - 20px
+    );
+    margin-bottom: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+  .JAMOLAR {
+    width: calc(
+      101.33% - 20px
+    ); 
+    margin-bottom: 20px; 
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .JAMOLAR {
+    width: calc(100.7% - 10px); 
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+li {
+  list-style-type: none;
+}
