@@ -58,6 +58,17 @@ code {
   margin-left: 150px;
   margin-right: 35px;
 }
+.PlayerDetailsAnimation {
+  transition: all 0.3s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.PlayerDetailsAnimation {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+}
 
 @media screen and (max-width: 100px) {
   .JAMOLAR {
@@ -115,7 +126,72 @@ code {
     width: 400px;
   }
 }
-@media screen and (min-width: 401px) and (max-width: 500px) {
+@media screen and (min-width: 344px) and (max-width: 400px) {
+  .JAMOLAR {
+    width: calc(
+      105% - 20px
+    ); 
+    margin-bottom: 20px;
+  }
+  .JAMOA_HEAD {
+    gap: 20px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 160px;
+  }
+}
+@media screen and (min-width: 347px) and (max-width: 400px) {
+  .JAMOLAR {
+    width: calc(
+      105% - 20px
+    ); 
+    margin-bottom: 20px;
+  }
+  .jadval {
+    gap: 15px;
+  }
+  .JAMOA_HEAD {
+    gap: 13px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 150px;
+  }
+}
+@media screen and (min-width: 348px) and (max-width: 400px) {
+  .JAMOLAR {
+    width: calc(
+      105% - 20px
+    ); 
+    margin-bottom: 20px;
+  }
+  .jadval {
+    gap: 15px;
+  }
+  .JAMOA_HEAD {
+    gap: 20px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 145px;
+  }
+}
+@media screen and (min-width: 349px) and (max-width: 400px) {
+  .JAMOLAR {
+    width: calc(
+      105% - 20px
+    ); 
+    margin-bottom: 20px;
+  }
+  .jadval {
+    gap: 15px;
+  }
+  .JAMOA_HEAD {
+    gap: 20px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 145px;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 500px) {
   .JAMOLAR {
     width: calc(
       98% - 20px
@@ -129,7 +205,187 @@ code {
     margin-right: 100px;
   }
 }
-
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 15px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 155px;
+  }
+  .jadval {
+    gap: 12px;
+  }
+}
+@media screen and (min-width: 352px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 15px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 155px;
+  }
+  .jadval {
+    gap: 12px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 12px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 150px;
+  }
+  .jadval {
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  .JAMOLAR {
+    width: calc(
+      103% - 20px
+    ); 
+    margin-bottom: 20px; 
+  }
+}
+@media screen and (min-width: 366px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 12px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 140px;
+  }
+  .jadval {
+    gap: 17px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 12px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 125px;
+  }
+  .jadval {
+    gap: 19px;
+  }
+}
+@media screen and (min-width: 388px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 12px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 110px;
+  }
+  .jadval {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .JAMOLAR {
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 5px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 105px;
+  }
+  .jadval {
+    gap: 25px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .JAMOLAR {
+    gap: 20px;
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 10px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 95px;
+  }
+  .jadval {
+    gap: 25px;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 500px) {
+  .JAMOLAR {
+    gap: 8px;
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 10px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 95px;
+  }
+  .jadval {
+    gap: 25px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 500px) {
+  .JAMOLAR {
+    gap: 18px;
+    width: calc(
+      106% - 20px
+    ); 
+    align-items: center;
+  }
+  .JAMOA_HEAD {
+    gap: 10px;
+  }
+  .jadval :nth-child(5) {
+    margin-right: 95px;
+  }
+  .jadval {
+    gap: 35px;
+  }
+}
 @media screen and (min-width: 501px) and (max-width: 600px) {
   .JAMOLAR {
     width: calc(

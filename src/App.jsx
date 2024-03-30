@@ -7,6 +7,7 @@ import Fixture from "./components/fixture";
 import Navbar from "./components/Navbar";
 import Jamoalar from "./pages/Jamoalar";
 import Orinlar from "./pages/Orinlar";
+import JamoalDetails from "./pages/JamoalDetails";
 
 function App() {
   const [fixtures, setFixtures] = useState(data);
@@ -47,7 +48,7 @@ function App() {
             <Route path="/fixture/:matchID" element={<Fixture />} />
             <Route path="/fixture/:matchID" element={<Fixture data={fixtures} />} />
             <Route path="/Jamoalar" element={<Jamoalar />} />
-           
+            <Route path="/jamoalar/:id" element={<JamoalDetails />} />
           </Routes>
         </Router>
       )}
