@@ -15,7 +15,7 @@ export const data = {
         id: 883747,
         referee: null,
         timezone: "UTC",
-        date: "2023-03-25T12:00:00+00:00",
+        date: "2024-03-25T12:00:00+00:00",
         timestamp: 1679745600,
         periods: {
           first: 1679745600,
@@ -23,50 +23,50 @@ export const data = {
         },
         venue: {
           id: 4474,
-          name: "Dalum - Kunstgræsbane",
-          city: "Odense",
+          name: "MARDON AKA MINISI",
+          city: "ZARKENT",
         },
         status: {
-          long: "First Half",
+          long: "Full Time",
           short: "1H",
-          elapsed: 9,
+          elapsed: 40,
         },
       },
       league: {
         id: 862,
-        name: " 1. Division",
-        country: "Denmark",
+        name: " 1 - TUR",
+        country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-3.api-sports.io/flags/dk.svg",
-        season: 2022,
-        round: "Regular Season - 19",
+        season: 2024,
+        round: "Regular Season - 1",
       },
       teams: {
         home: {
           id: 6013,
-          name: "2006",
-          logo: "https://i.pinimg.com/originals/7e/f9/d6/7ef9d6cf14501d1dd5c38b1413c979e0.png",
+          name: "2006  ( 1 )",
+          logo: "http://s3-eu-west-1.amazonaws.com/product-img/75319_maxi_0.jpg",
           winner: false,
         },
         away: {
           id: 8635,
-          name: "2002",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Logo_FC_Bayern_München_%282002–2017%29.svg/1200px-Logo_FC_Bayern_München_%282002–2017%29.svg.png",
+          name: "2000",
+          logo: "https://cdn.shopify.com/s/files/1/0518/3432/3098/products/Milanlogomockupfuljpeg.jpg?v=1659529798",
           winner: true,
         },
       },
       goals: {
-        home: 0,
-        away: 0,
+        home: 4,
+        away: 6,
       },
       score: {
         halftime: {
-          home: 0,
-          away: 0,
+          home: 3,
+          away: 2,
         },
         fulltime: {
-          home: null,
-          away: null,
+          home: 4,
+          away: 6,
         },
         extratime: {
           home: null,
@@ -80,17 +80,21 @@ export const data = {
       events: [
         {
           time: {
-            elapsed: 4,
+            elapsed: 0,
             extra: null,
           },
           team: {
             id: 8635,
             name: "2006",
-            logo: "https://i.pinimg.com/originals/7e/f9/d6/7ef9d6cf14501d1dd5c38b1413c979e0.png",
+            logo: "https://celes.club/pictures/uploads/posts/2023-06/1687263538_celes-club-p-letyashchii-myach-risunok-risunok-1.jpg",
           },
           player: {
             id: null,
-            name: null,
+            name: " TEAM 2006 Goals: Shoxrux 12`, Ismoil 15`, 20` , Dovud 24`",
+          },
+          player2: {
+            id: null,
+            name: " TEAM 2000 Goals: Abdulaziz 11` Doston 13` 25` 30 ` , Doston 17`, 22`",
           },
           assist: {
             id: null,
@@ -115,29 +119,29 @@ export const data = {
         },
         venue: {
           id: null,
-          name: "Stadion Znicza",
-          city: "Pruszków",
+          name: "MARDON AKA MINISI",
+          city: "Zarkent",
         },
         status: {
-          long: "First Half",
+          long: "Full Time",
           short: "1H",
-          elapsed: 13,
+          elapsed: 40,
         },
       },
       league: {
         id: 109,
-        name: "II Liga - East",
-        country: "Poland",
+        name: "1 - TUR",
+        country: "UZBEKISTAN",
         logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
         flag: "https://media-2.api-sports.io/flags/pl.svg",
-        season: 2022,
-        round: "Regular Season - 24",
+        season: 2024,
+        round: "Regular Season - 1",
       },
       teams: {
         home: {
           id: 6964,
-          name: "2005",
-          logo: "https://ir.ozone.ru/s3/multimedia-9/6623358309.jpg",
+          name: "2006 ( 2 )",
+          logo: "https://avatars.mds.yandex.net/i?id=9714adecfb06c39800522a12b51b6dd827446861-12542244-images-thumbs&n=13",
           winner: null,
         },
         away: {
@@ -148,86 +152,17 @@ export const data = {
         },
       },
       goals: {
-        home: 0,
-        away: 0,
+        home: 2,
+        away: 6,
       },
       score: {
         halftime: {
-          home: 0,
-          away: 0,
+          home: 2,
+          away: 4,
         },
         fulltime: {
-          home: null,
-          away: null,
-        },
-        extratime: {
-          home: null,
-          away: null,
-        },
-        penalty: {
-          home: null,
-          away: null,
-        },
-      },
-      events: [],
-    },
-    {
-      fixture: {
-        id: 884186,
-        referee: null,
-        timezone: "UTC",
-        date: "2023-03-25T11:45:00+00:00",
-        timestamp: 1679744700,
-        periods: {
-          first: 1679744700,
-          second: null,
-        },
-        venue: {
-          id: 4478,
-          name: "Gentofte Sportspark",
-          city: "Gentofte",
-        },
-        status: {
-          long: "First Half",
-          short: "1H",
-          elapsed: 31,
-        },
-      },
-      league: {
-        id: 122,
-        name: "2nd Division - Group 1",
-        country: "Denmark",
-        logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
-        flag: "https://media-1.api-sports.io/flags/dk.svg",
-        season: 2022,
-        round: "Regular Season - 19",
-      },
-      teams: {
-        home: {
-          id: 6021,
-          name: "2008",
-          logo: "https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
-          winner: false,
-        },
-        away: {
-          id: 2071,
-          name: "2005",
-          logo: "https://avatars.mds.yandex.net/i?id=4d8da6a7595259bd0271658053a173bcec81661c-10096959-images-thumbs&n=13",
-          winner: true,
-        },
-      },
-      goals: {
-        home: 0,
-        away: 0,
-      },
-      score: {
-        halftime: {
-          home: 0,
-          away: 0,
-        },
-        fulltime: {
-          home: null,
-          away: null,
+          home: 2,
+          away: 6,
         },
         extratime: {
           home: null,
@@ -241,17 +176,21 @@ export const data = {
       events: [
         {
           time: {
-            elapsed: 17,
+            elapsed: 0,
             extra: null,
           },
           team: {
-            id: 2071,
-            name: "Brabrand",
-            logo: "https://media-1.api-sports.io/football/teams/2071.png",
+            id: 8635,
+            name: "2006",
+            logo: "https://celes.club/pictures/uploads/posts/2023-06/1687263538_celes-club-p-letyashchii-myach-risunok-risunok-1.jpg",
           },
           player: {
             id: null,
-            name: null,
+            name: " TEAM 2006 ( 2 ) Goals: Azamat 15`,22`",
+          },
+          player2: {
+            id: null,
+            name: " TEAM 2007 Goals:  Javoxir 6`,9`,13 ,17` , Husanboy 23`,38`",
           },
           assist: {
             id: null,
@@ -263,144 +202,102 @@ export const data = {
         },
       ],
     },
-    // {
-    //   fixture: {
-    //     id: 900671,
-    //     referee: null,
-    //     timezone: "UTC",
-    //     date: "2023-03-25T12:00:00+00:00",
-    //     timestamp: 1679745600,
-    //     periods: {
-    //       first: 1679745600,
-    //       second: null,
-    //     },
-    //     venue: {
-    //       id: 4974,
-    //       name: "Central'nyj Stadion Mashuk",
-    //       city: "Pyatigorsk",
-    //     },
-    //     status: {
-    //       long: "First Half",
-    //       short: "1H",
-    //       elapsed: 14,
-    //     },
-    //   },
-    //   league: {
-    //     id: 651,
-    //     name: "Second League - Group 1",
-    //     country: "Russia",
-    //     logo: "https://media-2.api-sports.io/football/leagues/651.png",
-    //     flag: "https://media-2.api-sports.io/flags/ru.svg",
-    //     season: 2022,
-    //     round: "Group 1 - 21",
-    //   },
-    //   teams: {
-    //     home: {
-    //       id: 6814,
-    //       name: "Mashuk-KMV",
-    //       logo: "https://media-2.api-sports.io/football/teams/6814.png",
-    //       winner: null,
-    //     },
-    //     away: {
-    //       id: 17002,
-    //       name: "Alaniya Vladikavkaz II",
-    //       logo: "https://media-1.api-sports.io/football/teams/17002.png",
-    //       winner: null,
-    //     },
-    //   },
-    //   goals: {
-    //     home: 0,
-    //     away: 0,
-    //   },
-    //   score: {
-    //     halftime: {
-    //       home: 0,
-    //       away: 0,
-    //     },
-    //     fulltime: {
-    //       home: null,
-    //       away: null,
-    //     },
-    //     extratime: {
-    //       home: null,
-    //       away: null,
-    //     },
-    //     penalty: {
-    //       home: null,
-    //       away: null,
-    //     },
-    //   },
-    //   events: [],
-    // },
-    // {
-    //   fixture: {
-    //     id: 900672,
-    //     referee: null,
-    //     timezone: "UTC",
-    //     date: "2023-03-25T12:00:00+00:00",
-    //     timestamp: 1679745600,
-    //     periods: {
-    //       first: 1679745600,
-    //       second: null,
-    //     },
-    //     venue: {
-    //       id: 11951,
-    //       name: "Stadion Urozhay",
-    //       city: "Pavlovskaya",
-    //     },
-    //     status: {
-    //       long: "First Half",
-    //       short: "1H",
-    //       elapsed: 14,
-    //     },
-    //   },
-    //   league: {
-    //     id: 651,
-    //     name: "Second League - Group 1",
-    //     country: "Russia",
-    //     logo: "https://media-2.api-sports.io/football/leagues/651.png",
-    //     flag: "https://media-2.api-sports.io/flags/ru.svg",
-    //     season: 2022,
-    //     round: "Group 1 - 21",
-    //   },
-    //   teams: {
-    //     home: {
-    //       id: 6806,
-    //       name: "Kuban Kholding",
-    //       logo: "https://media-3.api-sports.io/football/teams/6806.png",
-    //       winner: null,
-    //     },
-    //     away: {
-    //       id: 6798,
-    //       name: "Druzhba",
-    //       logo: "https://media-3.api-sports.io/football/teams/6798.png",
-    //       winner: null,
-    //     },
-    //   },
-    //   goals: {
-    //     home: 0,
-    //     away: 0,
-    //   },
-    //   score: {
-    //     halftime: {
-    //       home: 0,
-    //       away: 0,
-    //     },
-    //     fulltime: {
-    //       home: null,
-    //       away: null,
-    //     },
-    //     extratime: {
-    //       home: null,
-    //       away: null,
-    //     },
-    //     penalty: {
-    //       home: null,
-    //       away: null,
-    //     },
-    //   },
-    //   events: [],
-    // },
+    {
+      fixture: {
+        id: 900671,
+        referee: null,
+        timezone: "UTC",
+        date: "2023-03-25T12:00:00+00:00",
+        timestamp: 1679745600,
+        periods: {
+          first: 1679745600,
+          second: null,
+        },
+        venue: {
+          id: 4974,
+          name: "MARDON AKA MINISI",
+          city: "ZARKENT",
+        },
+        status: {
+          long: "First Half",
+          short: "1H",
+          elapsed: 40,
+        },
+      },
+      league: {
+        id: 651,
+        name: "1 - TUR ",
+        country: "UZBEKISTAN",  
+        logo: "https://www.pinclipart.com/picdir/big/209-2095185_champions-league-logo-champions-league-football-logo-clipart.png",
+        flag: "https://media-2.api-sports.io/flags/ru.svg",
+        season: 2024,
+        round: "Regular Season - 1",
+      },
+      teams: {
+        home: {
+          id: 6814,
+          name: "2005",
+          logo: "https://avatars.mds.yandex.net/i?id=4d8da6a7595259bd0271658053a173bcec81661c-10096959-images-thumbs&n=13",
+          winner: null,
+        },
+        away: {
+          id: 17002,
+          name: "2008",
+          logo: "https://i.pinimg.com/originals/a8/1a/72/a81a7215b02f6a9a6b5b1b28d2f2882f.png",
+          winner: null,
+        },
+      },
+      goals: {
+        home: 6,
+        away: 4,
+      },
+      score: {
+        halftime: {
+          home: 4,
+          away: 1,
+        },
+        fulltime: {
+          home: 6,
+          away: 4,
+        },
+        extratime: {
+          home: null,
+          away: null,
+        },
+        penalty: {
+          home: null,
+          away: null,
+        },
+      },
+      events: [
+        {
+          time: {
+            elapsed: 0,
+            extra: null,
+          },
+          team: {
+            id: 8635,
+            name: "2006",
+            logo: "https://celes.club/pictures/uploads/posts/2023-06/1687263538_celes-club-p-letyashchii-myach-risunok-risunok-1.jpg",
+          },
+          player: {
+            id: null,
+            name: " TEAM 2005 Goals: Oqil 11`,25`,33` , Asadbek 29` , Rasul 6` 40`",
+          },
+          player2: {
+            id: null,
+            name: " TEAM 2008 Goals: Akobir 1`,9` , Mirihtiyor 17`, Mirshohid 30` ",
+          },
+          assist: {
+            id: null,
+            name: null,
+          },
+          type: "Goal",
+          detail: "Normal Goal",
+          comments: null,
+        },
+      ],
+    },
     // {
     //   fixture: {
     //     id: 900675,

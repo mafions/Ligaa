@@ -30,9 +30,7 @@ const NavBar = () => {
             <Link to="/fixtures" onClick={() => setIsOpen(false)} >O'yinlar</Link>
           </li>
           <li className="mx-4 my-6 md:my-0">
-            <Link to="Jamoalar" onClick={() => setIsOpen(false)}>Jamoalar</Link>
-          </li>
-          <li className="mx-4 my-6 md:my-0">
+            <Link to="/topurarlar" onClick={() => setIsOpen(false)}>To'purarlar</Link>
           </li>
         </ul>
       </nav>

@@ -60,6 +60,9 @@ const Fixture = () => {
                   <div className="badge badge-secondary">{event.type}</div>
                 )}{" "}
                 {event.player.name}{" "}
+                <br />
+                <hr />
+                {event.player2.name}{" "}
                 <img src={event.team.logo} width={20} alt="team-logo" />
                 <br />
                 <div className="text-green-700">{event.time.elapsed}</div>
@@ -115,7 +118,9 @@ const Fixture = () => {
       </div>
 
       <div className="text-center">
-        <button className="btn btn-wide">Pay for Live Odds</button>
+      <a href="https://www.instagram.com/mafion_06/"><i class='fa-brands fa-telegram'>JAMOA QOSHISH UCHUN </i></a>
+
+
       </div>
     </div>
   );
